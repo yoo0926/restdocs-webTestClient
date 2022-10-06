@@ -1,0 +1,24 @@
+= Todo API
+notification-api-docs
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectlinks:
+
+ifndef::snippets[]
+:snippets: ./build/generated-snippets
+endif::[]
+
+== User
+=== 목록조회
+==== curl
+include::{snippets}/user-listAll/curl-request.adoc[]
+==== Request Field
+==== Response Field
+include::{snippets}/user-listAll/response-fields.adoc[]
+==== Request sample
+include::{snippets}/user-listAll/http-request.adoc[]
+==== Response sample
+include::{snippets}/user-listAll/http-response.adoc[]
